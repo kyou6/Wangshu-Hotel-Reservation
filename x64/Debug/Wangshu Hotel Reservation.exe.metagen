@@ -1,0 +1,74 @@
+  WangshuHotelReservation.Date.resources - Embedded, ContainedInManifestFile, 
+  WangshuHotelReservation.Profile.resources - Embedded, ContainedInManifestFile, 
+  WangshuHotelReservation.Receipt.resources - Embedded, ContainedInManifestFile, 
+  WangshuHotelReservation.Rooms.resources - Embedded, ContainedInManifestFile, 
+  WangshuHotelReservation.Splash.resources - Embedded, ContainedInManifestFile, 
+  WangshuHotelReservation.Thanks.resources - Embedded, ContainedInManifestFile, 
+  WangshuHotelReservation.Welcome.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Wangshu Hotel Reservation, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class WangshuHotelReservation.Receipt: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double roomPricing : Public
+    Double dailyRate : Public
+    Double stayGap : Public
+    Double stayPrice : Public
+    Double tax : Public
+    Double totalPricing : Public
+    Boolean switchToThanks : Public
+    Boolean switchToRooms : Public
+Class WangshuHotelReservation.Profile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean switchToDate : Public
+    Boolean switchToWelcome : Public
+Class WangshuHotelReservation.Welcome: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean switchToProfile : Public
+Class WangshuHotelReservation.Splash: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean switchToWelcome : Public
+    Int32 seconds : Public
+  Methods:
+    timer1_Tick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class WangshuHotelReservation.Date: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean switchToProfile : Public
+    Boolean switchToRooms : Public
+  Methods:
+    Date_Load(Object, EventArgs): PrivateScope, Public, HideBySig
+Class WangshuHotelReservation.Rooms: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean switchToReceipt : Public
+    Boolean switchToDate : Public
+Class WangshuHotelReservation.Thanks: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean switchToProfile : Public

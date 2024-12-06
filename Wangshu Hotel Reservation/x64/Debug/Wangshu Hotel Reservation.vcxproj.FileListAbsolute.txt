@@ -1,0 +1,10 @@
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\Wangshu Hotel Reservation.vcxproj.AssemblyReference.cache
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\Wangshu Hotel Reservation.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\Wangshu Hotel Reservation.vcxproj.GenerateResource.cache
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\WangshuHotelReservation.Splash.resources
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\WangshuHotelReservation.Welcome.resources
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\WangshuHotelReservation.Profile.resources
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\WangshuHotelReservation.Receipt.resources
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\WangshuHotelReservation.Date.resources
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\WangshuHotelReservation.Rooms.resources
+C:\Users\ryou\source\repos\Wangshu Hotel Reservation\Wangshu Hotel Reservation\x64\Debug\WangshuHotelReservation.Thanks.resources
